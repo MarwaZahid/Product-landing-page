@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+<style>
+
+*{
+  box-sizing: border-box;
+ 
+  }
+body{
+  font-family: Verdana;
+  font-size: 1rem;
+  width: 100%;
+  height: auto;
+   background: linear-gradient( 100deg, rgba(255,252,252,0)50%, rgba(227,227,227,5) 25%, rgba(224,217,217,217) 50%, rgba(196,186,186,5) 5%);
+ background-repeat: no-repeat;    
+}
+
+#header-img{
+  width: 100px;
+  height: 80px;
+  margin-top: 5px;
+  margin-right: 10px;
+  padding: 0;
+  margin-left: 10px;
+  margin-bottom: 2px;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+  margin-left: 450px;
+  
+}
+header {
+  position: fixed;
+  width: 100%;
+   top: 0;
+  left: 0;
+  font-family: 'Exo 2', sans-serif;
+  background-color: white;
+  
+}
+.nav-link{
+  color: black;
+  text-decoration: none;
+  padding-right: 15px;
+ padding-left: 12px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+a:hover{
+ background-color: black;
+ color: white;
+}
+.img-1{
+  
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: none;
+}
+.image{
+  width: 120%;
+  height: 70%;
+}
+.designs{
+  width: 120%;
+  height: 70%;
+}
+.sub{
+  font-size: 20px;
+  text-align: center;
+font-family: Times New Roman;
+font-weight: 500;
+}
+.description{
+  text-align: center;
+  font-family: Times New Roman;
+}
+.bed{
+
+}
+
+@media only screen and (max-width: 768px) {
+ *{
+   width: 100%;
+ }
+ li img{
+    width: 50%;
+}
+.best img{
+    width: 40%;
+  }
+  .img-1{
+    width: 40%;
+  }
+  nav{
+    display: inline-block;
+    margin: auto;
+  }
+  
+}
+@media only screen and (max-width: 1080px) {
+  *{
+   width: 100%;
+ }
+  li img{
+  width: 50%;
+  }
+  .best img{
+   width: 40%;
+  }
+  .img-1{
+    width: 40%;
+  }
+  nav{
+    display: inline-block;
+    margin: auto;
+  }
+}
+h3{
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+li{
+  display: flex;
+  flex-direction: row;
+}
+.bedding a{
+   text-decoration: none;
+   color: black;
+   margin: 7px;
+}
+.bedding a:hover{
+  background:black;
+  color: white;
+}
+.product{
+  width: 90px;
+  background: black;
+  color: grey;
+  border: none;
+  height: 40px;
+}
+.product a{
+  text-decoration: none;
+  color: grey;
+}
+.product:hover{
+  background: grey;
+  color: black;
+}
+.product a:hover{
+  color: black;
+  background: grey;
+}
+.pic-of-towels{
+  
+   float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.img-show::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+h5{
+  font-weight: bold;
+  margin: 10px;
+  padding-top: 20px;
+}
+section{
+  border-bottom: 2px solid black;
+  border-width: 100%;
+  padding-bottom: 20px;
+}
+.best img{
+ width: 50%;
+ height: 50%;
+}
+.best > p{
+  
+  margin: 10px;
+  
+}
+#form{
+  padding: 10px;
+}
+#email{
+  width: 15%;
+  height: 25px;
+  border: 1px solid grey;
+}
+#submit{
+  width: 10%;
+  height: 15%;
+}
+button{
+  width: 20%;
+  height: 5%;
+  background: gray;
+  border: 1px solid gray;
+}
+button:hover{
+  background: black;
+  color: gray;
+}
+iframe{
+  margin-bottom: 20px;
+  width: 50%;
+ 
+}
+</style>
+  </head>
+  <body>
+   
+  <header id="header">
+  
+      <img id="header-img" src="download.png" alt="logo">
+<nav id="nav-bar">   
+ <center> <a
+class="nav-link"
+href="#specification">
+Specifications</a>
+
+        <a class="nav-link" href="#bedding">Bedding</a>
+        <a class="nav-link" href="#pillows">Pillows</a>
+        <a class="nav-link" href="#towels">Towels</a>
+      </nav></center>
+      </header>
+ <section class="img-1">
+    <img src="https://www.elegantstrand.com/cdn/shop/files/Bedding_Dropdown_Placeholder_Image_02ebcb75-cd5a-4deb-bca8-20975dc76ef5_370x230@2x.png?v=1668669839" alt="bed-design" class="image">
+    <img src="https://www.elegantstrand.com/cdn/shop/products/T2_Pure-Cashmere_1500px-wide-851493_600x.jpg?v=1713887959" alt="towel" class="designs">
+  </section>  
+    
+<p class="sub" id="specification">
+Luxury Bedding and Bath from Elegant Strand</p>
+<p class=" description">From resort-quality bedding sets to plush bath towels, explore our collections and find the perfect addition to your elegant lifestyle.</p>
+
+<center><iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/0JfSbK4NKJI?si=Ozw7lR4DLnlqE4Ei" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+  <section class="best">
+ <center> <img class="bed" src="Anniston Transitional Style Solid Mahogany Wood Queen Platform Bed.jpeg" alt="design" width=100px height=100px>
+    <p class="image-title">Saint Tropez <br>700 Thread Count Sateen Sheets
+Hand-Guided Embroidery</p>
+<button class="product" id="product"><a href="https://www.elegantstrand.com/products/saint-tropez-slate-platinum">View This Product</a></button></center>
+</section>
+<section class="bedding" id="bedding">
+  <h3>Bedding</h3>
+  <ul>
+    <li><a href="https://www.elegantstrand.com/collections/elegant-bedding">Sheet Collections</a></li>
+    <li><a href="https://www.elegantstrand.com/collections/duvet-covers">Duvet Covers</a></li>
+    <li><a href="https://www.elegantstrand.com/products/quilted-collection-atlantico-mil">Quilted Collections</a></li>
+    <li><a href="https://www.elegantstrand.com/collections/decorative-shams">Decorative Shams</a></li>
+    </ul>
+    </section>
+    <div class="img-show">
+    <section class="pillows" id="pillows">
+<h3>Pillows</h3>
+<img src="https://www.elegantstrand.com/cdn/shop/products/Untitled-1_01761cf8-3361-4df2-8ad3-90388c87c99d-190459_600x.jpg?v=1694119481" alt="towels" class="pic-of-towels">
+<img src="https://www.elegantstrand.com/cdn/shop/files/pillow-front_57f68f7f-93bd-41c2-8461-4b55dee5af22_600x.jpg?v=1692905333" alt="towels" class="pic-of-towels">
+<img src="https://www.elegantstrand.com/cdn/shop/files/pillow-side_027eb98c-4078-4c93-a239-d2a924e88a30_600x.jpg?v=1692905332" alt="towels" class="pic-of-towels">
+<h5>European Goose Down Pillows</h5>
+<p class="details">Proprietary Pillow within a Pillow Design
+Ultimate Comfort & Support
+Handcrafted in Italy</p>
+   <a href="https://www.elegantstrand.com/products/pillow-within-a-pillow"></a>
+   <button class="product"><a href="https://www.elegantstrand.com/products/pillow-within-a-pillow">See More</a></button>
+    </section>
+      <section class="towels" id="towels">
+<h3>Towels</h3>
+<img src="https://www.elegantstrand.com/cdn/shop/products/T1_Pure-Cashmere_1500px-wide2-756377_600x.jpg?v=1713887959" alt="towels" class="pic-of-towels">
+<img src="https://www.elegantstrand.com/cdn/shop/products/T5_Pure-Cashmere_1500px-wide2-266837_600x.jpg?v=1694119502" alt="towels" class="pic-of-towels">
+<img src="https://www.elegantstrand.com/cdn/shop/products/T2_Pure-Cashmere_1500px-wide-851493_600x.jpg?v=1713887959" alt="towels" class="pic-of-towels">
+<h5>Riviera Towels</h5>
+<p class="details">Garment Dyed, Soft & Plush
+Hand Cut and Sewn Edging
+Towel Weight 735 GSM</p>
+    <a href="https://www.elegantstrand.com/products/riviera-towels-pure-cashmere"></a>
+  <button class="product"><a href="https://www.elegantstrand.com/products/riviera-towels-pure-cashmere">See More</a></button>
+    </section>  
+    </div>
+  
+     <form id="form" action="https://www.freecodecamp.com/email-submit">
+       <input id="email" placeholder="xyz@gmail.com" type="email" name="email">
+   <input type="submit" id="submit"></input>
+      </form>
+      </body>
+      </html>
